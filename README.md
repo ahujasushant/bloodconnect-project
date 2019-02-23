@@ -39,7 +39,8 @@ These databases should be updated in real time through app and our website
 # Application requirements
 We are planning to get 2 apps developed.
 
-1. For public: This app will be used by common public, where they can sign up and login. This app
+# 1. For public: 
+This app will be used by common public, where they can sign up and login. This app
 will have features for:
 	a. About BloodConnect: Our general info
 	b. Donate Blood: If donor wants to donate a blood on a certain day, we will get the notification
@@ -77,7 +78,8 @@ to requester
 7. Contact us – Prompt user to enter his general info and his query and send the mail.
  
 
-2. For Volunteers: This app will be used by volunteers to handle the work of BloodConnect. This
+# 2. For Volunteers: #
+This app will be used by volunteers to handle the work of BloodConnect. This
 app will have following features:
 	a. Helpline, Camp and awareness interface for each city
 	b. Hierarchical Role Structure
