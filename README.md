@@ -46,7 +46,7 @@ To setup psql db role one can go to the psql console by the following command an
 
 ```
 sudo -u postgres psql
-postgres=#  CREATE ROLE blooodconnect with CREATEDB login password 'blooodconnect';
+postgres=#  CREATE ROLE sleepwake_api with CREATEDB login password 'sleepwake_api';
 ```
 
 #### Create and Migrate db
