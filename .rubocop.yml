@@ -1,0 +1,54 @@
+Metrics/ClassLength:
+  Max: 300
+
+Metrics/AbcSize:
+   Exclude:
+    - "db/migrate/*.rb"
+
+Metrics/ModuleLength:
+  Exclude:
+    - "**/*_spec.rb"
+
+Metrics/MethodLength:
+  Max: 15
+  CountComments: false
+  Exclude:
+    - "db/migrate/*.rb"
+
+Metrics/LineLength:
+  Max: 150
+
+Style/Documentation:
+  Enabled: false
+
+Style/BlockComments:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+      - "**/*_spec.rb"
+      - "lib/tasks/**"
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 4
+
+Naming/PredicateName:
+  Exclude:
+    - "features/pages/**"
+
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/seeds.rb'
+    - 'spec/rails_helper.rb'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'log/**/*'
+    - 'config/**/*'
+    - 'ng/**/*'
+    - 'node_modules/**/*'
+    - 'Gemfile'
