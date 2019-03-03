@@ -17,8 +17,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: <%= ENV['BLOODCONNECT-USERNAME'] || 'bloodconnect' %>
-  password: <%= ENV['BLOODCONNECT-PASSWORD'] || 'bloodconnect' %>
+  username: himanshu
+  password: himanshu
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
