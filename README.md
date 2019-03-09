@@ -10,7 +10,7 @@ What things you need to install the software and how to install them
 
 #### Ruby
 Ruby version for this project is ` 2.5.3`
-rbenv is our recommened and preffered ruby version management software. If you don't have rbenv installed on your system. You can see the installation instructions [here.](https://github.com/rbenv/rbenv)
+rbenv is our recommened and preferred ruby version management software. If you don't have rbenv installed on your system. You can see the installation instructions [here.](https://github.com/rbenv/rbenv)
 For installing the ruby version, type in the following command on your terminal ```rbenv install 2.5.3```.
 
 One can check the installed ruby version by the following command ```ruby -v```.
@@ -19,7 +19,7 @@ The output should be something like this ```ruby 2.5.3p105```.
 
 #### Postgres
 
-Our preffered database managing software is Postgres. If not installed, one can look into their official documentation [here](https://www.postgresql.org/download) and follow the steps as given.
+Our preferred database managing software is Postgres. If not installed, one can look into their official documentation [here](https://www.postgresql.org/download) and follow the steps as given.
 
 #### Git
 Make sure you have git installed on your system, if you haven't, just refer this [How to install Git.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
