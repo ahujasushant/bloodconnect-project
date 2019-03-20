@@ -1,5 +1,5 @@
-require 'test_helper'
-
+require 'spec_helper'
+require 'rspec/rails'
 class UserTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
